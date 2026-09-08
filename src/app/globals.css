@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0c1c24;
+  --navy-2: #14303b;
+  --ink: #122028;
+  --foam: #f4f1ea;
+  --sand: #e4ddd0;
+  --teal: #3d8a96;
+  --teal-2: #2f6d78;
+  --gold: #b48a4a;
+  --muted: #5d6b71;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-2: var(--navy-2);
+  --color-ink: var(--ink);
+  --color-foam: var(--foam);
+  --color-sand: var(--sand);
+  --color-teal: var(--teal);
+  --color-teal-2: var(--teal-2);
+  --color-gold: var(--gold);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--foam);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.eyebrow {
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  font-weight: 560;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+}
