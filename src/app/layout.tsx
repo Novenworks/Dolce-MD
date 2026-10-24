@@ -13,9 +13,10 @@ const body = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "Dolce MD | Physician-Led Longevity + Primary Care in Laguna Beach",
+  title: "Dolce MD | Concierge Primary Care & Medical Spa in Laguna Beach",
   description:
-    "Concierge primary care with advanced diagnostics, wellness programs, and physician-guided longevity services led by Dr. John Sanguedolce in Laguna Beach.",
+    "Concierge primary care and medical spa in Laguna Beach, led by board-certified family physician Dr. John Sanguedolce. Call 949-209-9266.",
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({

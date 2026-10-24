@@ -1,15 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import { site } from "@/lib/site";
 
-const BOOK = "https://healow.com/apps/practice/dolce-md-28675?v=2&t=1";
+const BOOK = site.book;
 
 const links = [
-  { href: "#physician", label: "Physician" },
-  { href: "#pathways", label: "Care" },
+  { href: "#concierge", label: "Concierge Care" },
+  { href: "#medspa", label: "Medical Spa" },
   { href: "#physical", label: "Executive Physical" },
-  { href: "#memberships", label: "Memberships" },
-  { href: "#services", label: "Services" },
+  { href: "#providers", label: "Providers" },
+  { href: "#visit", label: "Visit" },
 ];
 
 export default function Header() {
@@ -19,13 +20,9 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-navy/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
         <a href="#top" className="flex items-center gap-3 focus-ring">
-          <img
-            src="https://dolcemd.com/wp-content/themes/dolce-md/resources/images/logo.svg"
-            alt="Dolce MD"
-            width={148}
-            height={36}
-            className="h-8 w-auto brightness-0 invert"
-          />
+          <span className="font-display text-[22px] leading-none tracking-tight text-white">
+            Dolce <span className="text-gold">MD</span>
+          </span>
         </a>
         <nav className="hidden items-center gap-7 text-[13px] tracking-wide text-white/80 lg:flex">
           {links.map((l) => (
