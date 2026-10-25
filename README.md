@@ -1,8 +1,5 @@
-# Dolce MD — Novenworks speculative redesign
+# Dolce MD
 
-Physician-led longevity + primary care homepage demo for Dolce MD, Laguna Beach.
+Homepage redesign for Dolce MD, Laguna Beach. Facts are taken from the practice's own site, https://dolcemd.com/.
 
-- Official site: https://dolcemd.com/
-- Booking: https://healow.com/apps/practice/dolce-md-28675?v=2&t=1
-
-Not an official Dolce MD website.
+Website redesign by Novenworks. Not the official website.
